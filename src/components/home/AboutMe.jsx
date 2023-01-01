@@ -2,6 +2,7 @@ import React from "react";
 
 import axios from "axios";
 import { Jumbotron } from "./migration";
+import Resume from "./Resume";
 
 const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
@@ -52,7 +53,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           <p className="lead text-center">{message}</p>
           {resume && (
             <p className="lead text-center">
-              <a
+              {/* <a
                 className="btn btn-outline-dark btn-lg"
                 href={resume}
                 target="_blank"
@@ -61,9 +62,11 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 aria-label="Resume/CV"
               >
                 Resume
-              </a>
+              </a> */}
+              <Resume />
             </p>
           )}
+          
         </div>
       </div>
     </Jumbotron>

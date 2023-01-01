@@ -8,6 +8,7 @@ import { NavLink } from "./home/migration";
 
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
+  const [isShowResume, setIsShowResume] = useState(false);
   const [isTop, setIsTop] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
   const navbarMenuRef = React.useRef();
@@ -31,6 +32,10 @@ const Navigation = React.forwardRef((props, ref) => {
       : setIsTop(true);
   }, [navBottom, navbarDimensions, ref, scrollPosition]);
 
+  React.useEffect(() => {
+    console.log('ccccc')
+  }, [isShowResume]);
+
   return (
     <Navbar
       ref={navbarMenuRef}
@@ -38,9 +43,9 @@ const Navigation = React.forwardRef((props, ref) => {
         }`}
       expand="lg"
     >
-      <Navbar.Brand className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
+      {/* <Navbar.Brand className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
         {`<${mainBody.firstName} />`}
-      </Navbar.Brand>
+      </Navbar.Brand> */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="navbar-nav mr-auto">
@@ -59,11 +64,11 @@ const Navigation = React.forwardRef((props, ref) => {
           )}
           <NavLink
             className="nav-item lead"
-            href={about.resume}
-            target="_blank"
-            rel="noreferrer noopener"
+            // href={about.resume}
+            // target="_blank"
+            // rel="noreferrer noopener"
           >
-            Resume
+            <div onClick={() => setIsShowResume(true)}>Resume</div>
           </NavLink>
           {about.show && (
             <NavLink

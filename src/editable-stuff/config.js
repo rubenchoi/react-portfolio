@@ -1,36 +1,54 @@
 // Navigation Bar SECTION
 const navBar = {
-  show: true,
+  show: false,
 };
 
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Ruben",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Choi",
+  message: " There is a goal but no way; what we call the way is mere wavering. - Franz Kafka ",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      image: "fab fa-github",
+      url: "https://github.com/rubenchoi",
+    },
+    // {
+    //   image: "fa-facebook",
+    //   url: "https://www.facebook.com/hashirshoaeb",
+    // },
+    {
+      image: "fab fa-instagram",
+      url: "https://www.instagram.com/ruben.choi_/",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      image: "fab fa-linkedin",
+      url: "https://www.linkedin.com/in/rubenchoi/",
     },
     {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      // image: "far fa-newspaper",
+      image: "fab fa-blogger",
+      url: "https://rubenchoi.tistory.com/",
+    },
+    // {
+    //   image: "fa-twitter",
+    //   url: "https://www.twitter.com/flamencochoi/",
+    // },
+    {
+      image: "fab fa-youtube",
+      url: "https://www.youtube.com/flamencochoi/",
     },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      image: "fab fa-ethereum",
+      url: "https://opensea.io/rubenchoi",
     },
     {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      image: "fab fa-soundcloud",
+      url: "https://soundcloud.com/ruben-choi",
     },
+    
   ],
 };
 
@@ -51,11 +69,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/ruben_portrait_1x1.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "I am a software engineer working on AI robots. I am also a musician composing, playing and recording. I love reading, writing and painting.",
+  resume: "/resume.pdf",
 };
 
 // PROJECTS SECTION
@@ -64,11 +82,39 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "rubenchoi", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
+};
+
+const music = {
+  show: true,
+  heading: "Music",
+  data: [
+    {
+      title: 'Farewell',
+      logo: require('../assets/img/farewell.jpg'),
+      description: 'Ruben Choi EP 2020',
+      urls: {
+        apple: 'https://music.apple.com/us/album/farewell-ep/1526794613',
+        spotify: 'https://open.spotify.com/album/2tYbRlayczJJsycDc4UHnA',
+        melon: 'https://www.melon.com/album/music.htm?albumId=10473820'
+      }
+    },
+    {
+      title: 'Inferno - The Divine Comedy',
+      logo: require('../assets/img/inferno.png'),
+      description: 'Kokytus EP 2021',
+      urls: {
+        apple: 'https://music.apple.com/us/album/inferno-the-divine-comedy-ep/1585627398',
+        spotify: 'https://open.spotify.com/album/1BI98eYBjm9HyMWluRhnvg',
+        melon: 'https://www.melon.com/album/detail.htm?albumId=10712852'
+      }
+    }
+
+  ],
 };
 
 // Leadership SECTION
@@ -78,26 +124,26 @@ const leadership = {
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/ruben_portrait.png"),
+      label: "First slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/ruben_portrait.png"),
+      label: "Second slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width: "615",
+    height: "450"
   }
 };
 
 // SKILLS SECTION
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
@@ -124,10 +170,10 @@ const skills = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Contact",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "honey312 (at) naver.com",
+  // email: "honey312@naver.com",
 };
 
 const experiences = {
@@ -136,12 +182,12 @@ const experiences = {
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
+      companylogo: require('../assets/img/farewell.jpg'),
       date: 'June 2018 – Present',
     },
     {
       role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
+      companylogo: require('../assets/img/farewell.jpg'),
       date: 'May 2017 – May 2018',
     },
   ]
@@ -152,4 +198,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, music, skills, leadership, getInTouch, experiences };

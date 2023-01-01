@@ -5,6 +5,7 @@ import {
   mainBody,
   about,
   repos,
+  music,
   leadership,
   skills,
   getInTouch,
@@ -13,6 +14,7 @@ import {
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
+import Music from "./components/home/Music";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
@@ -55,6 +57,12 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
+      {music.show && (
+        <Music
+          heading={music.heading}
+          data={music.data}
+        />
+      )}
       {leadership.show && (
         <Leadership
           heading={leadership.heading}
@@ -84,8 +92,8 @@ const App = () => {
       <Routes>
         <Route path="/" exact element={<Home ref={titleRef} />} />
       </Routes>
-      {/* {false && <Route path="/blog" exact component={Blog} />}
-      {false && <Route path="/blog/:id" component={BlogPost} />} */}
+      {/* {<Route path="/blog" exact component={Blog} />} */}
+      {/* {<Route path="/blog/:id" component={BlogPost} />} */}
       <Footer>
         {getInTouch.show && (
           <GetInTouch
