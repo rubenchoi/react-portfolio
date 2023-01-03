@@ -18,7 +18,10 @@ const Resume = ({ variant = "outline-dark" }) => {
         <Modal.Title>Resume</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <iframe src="/resume.pdf" style={{ width: '100%', height: '100%' }}></iframe>
+        {/* <iframe src="/resume.pdf" title='resume' style={{ width: '100%', height: '100%' }}></iframe> */}
+        <img src="/resume-1.png" style={{ width: '100%' }} alt="resume 1/2" />
+        <img src="/resume-2.png" style={{ width: '100%' }} alt="resume 2/2" />
+        <Modal.Title style={{ fontSize: '0.8em', textAlign: "center" }}><a href="/resume.pdf" target="_blank">Download</a></Modal.Title>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={handleClose}>

@@ -17,7 +17,7 @@ const mainBody = {
     },
     // {
     //   image: "fa-facebook",
-    //   url: "https://www.facebook.com/hashirshoaeb",
+    //   url: "https://www.facebook.com/honey312",
     // },
     {
       image: "fab fa-instagram",
