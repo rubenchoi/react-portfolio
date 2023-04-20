@@ -48,7 +48,7 @@ const mainBody = {
       image: "fab fa-soundcloud",
       url: "https://soundcloud.com/ruben-choi",
     },
-    
+
   ],
 };
 
@@ -69,10 +69,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/ruben_portrait_1x1.png"),
+  imageLink: require("../editable-stuff/p21-name.jpg"),
   imageSize: 375,
   message:
-    "I am a software engineer working on AI robots. I am also a musician composing, playing and recording. I love reading, writing and painting.",
+    "Musician & Technical Artist@Advanced Robotics Lab, LG Electronics",
   resume: "/resume.pdf",
 };
 
@@ -112,6 +112,16 @@ const music = {
         spotify: 'https://open.spotify.com/album/1BI98eYBjm9HyMWluRhnvg',
         melon: 'https://www.melon.com/album/detail.htm?albumId=10712852'
       }
+    },
+    {
+      title: 'Full Bloom',
+      logo: require('../assets/img/fullbloom.jpg'),
+      description: 'Ruben Choi EP 2023 (coming up soon)',
+      urls: {
+        apple: 'https://music.apple.com/us/album/farewell-ep/1526794613',
+        spotify: 'https://open.spotify.com/album/2tYbRlayczJJsycDc4UHnA',
+        melon: 'https://www.melon.com/album/music.htm?albumId=10473820'
+      }
     }
 
   ],
@@ -125,12 +135,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     {
-      img: require("../editable-stuff/ruben_portrait.png"),
+      img: require("../editable-stuff/p41.jpg"),
       label: "First slide label",
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
     {
-      img: require("../editable-stuff/ruben_portrait.png"),
+      img: require("../editable-stuff/p41.jpg"),
       label: "Second slide label",
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
@@ -153,7 +163,7 @@ const skills = {
     { name: "JavaScript", value: 90 },
     { name: "React", value: 65 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "C#/Unity", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
