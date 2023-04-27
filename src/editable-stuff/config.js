@@ -118,9 +118,9 @@ const music = {
       logo: require('../assets/img/fullbloom.jpg'),
       description: 'Ruben Choi EP 2023 (coming up soon)',
       urls: {
-        apple: 'https://music.apple.com/us/album/farewell-ep/1526794613',
-        spotify: 'https://open.spotify.com/album/2tYbRlayczJJsycDc4UHnA',
-        melon: 'https://www.melon.com/album/music.htm?albumId=10473820'
+        apple: 'https://music.apple.com/us/album/full-bloom/1684698636',
+        spotify: 'https://open.spotify.com/album/33dobnS4gJf2PWgGaS3AJg',
+        melon: 'https://www.melon.com/album/detail.htm?albumId=11232157'
       }
     }
 
