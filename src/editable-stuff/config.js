@@ -94,13 +94,23 @@ const music = {
   heading: "Music",
   data: [
     {
-      title: 'Farewell',
-      logo: require('../assets/img/farewell.jpg'),
-      description: 'Ruben Choi EP 2020',
+      title: 'Four Seasons',
+      logo: require('../assets/img/fourseasons.jpg'),
+      description: 'Ruben Choi 2023 Digital Album',
       urls: {
-        apple: 'https://music.apple.com/us/album/farewell-ep/1526794613',
-        spotify: 'https://open.spotify.com/album/2tYbRlayczJJsycDc4UHnA',
-        melon: 'https://www.melon.com/album/music.htm?albumId=10473820'
+        apple: 'https://music.apple.com/us/album/four-seasons/1713539006',
+        spotify: 'https://open.spotify.com/album/1P0OiF9R4FzcoTC2tSuZWg',
+        melon: 'https://www.melon.com/album/detail.htm?albumId=11350913'
+      }
+    },
+    {
+      title: 'Full Bloom',
+      logo: require('../assets/img/fullbloom.jpg'),
+      description: 'Ruben Choi 2023 Digital Album',
+      urls: {
+        apple: 'https://music.apple.com/us/album/full-bloom/1684698636',
+        spotify: 'https://open.spotify.com/album/33dobnS4gJf2PWgGaS3AJg',
+        melon: 'https://www.melon.com/album/detail.htm?albumId=11232157'
       }
     },
     {
@@ -114,16 +124,15 @@ const music = {
       }
     },
     {
-      title: 'Full Bloom',
-      logo: require('../assets/img/fullbloom.jpg'),
-      description: 'Ruben Choi EP 2023 (coming up soon)',
+      title: 'Farewell',
+      logo: require('../assets/img/farewell.jpg'),
+      description: 'Ruben Choi EP 2020',
       urls: {
-        apple: 'https://music.apple.com/us/album/full-bloom/1684698636',
-        spotify: 'https://open.spotify.com/album/33dobnS4gJf2PWgGaS3AJg',
-        melon: 'https://www.melon.com/album/detail.htm?albumId=11232157'
+        apple: 'https://music.apple.com/us/album/farewell-ep/1526794613',
+        spotify: 'https://open.spotify.com/album/2tYbRlayczJJsycDc4UHnA',
+        melon: 'https://www.melon.com/album/music.htm?albumId=10473820'
       }
-    }
-
+    },
   ],
 };
 

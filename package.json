@@ -1,7 +1,7 @@
 {
   "name": "rubenchoi-portfolio",
   "description": "Ruben Choi Portfolio",
-  "homepage": "http://rubenchoi.github.io",
+  "homepage": "https://rubenchoi.github.io",
   "version": "2.0.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
