@@ -94,6 +94,16 @@ const music = {
   heading: "Music",
   data: [
     {
+      title: 'Mechanical Twilight',
+      logo: require('../assets/img/mechanical.jpg'),
+      description: 'Ruben Choi 2024 Digital Album',
+      urls: {
+        apple: 'https://vibe.naver.com/album/31909357',
+        spotify: 'https://open.spotify.com/album/7dySRH0ejyWABgoDmcnvrr',
+        melon: 'https://www.melon.com/album/detail.htm?albumId=11533826'
+      }
+    },
+    {
       title: 'Four Seasons',
       logo: require('../assets/img/fourseasons.jpg'),
       description: 'Ruben Choi 2023 Digital Album',
