@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.778eeed7.css",
-    "main.js": "/static/js/main.1f4a202c.js",
+    "main.js": "/static/js/main.fff9e055.js",
     "static/js/787.23917691.chunk.js": "/static/js/787.23917691.chunk.js",
     "static/media/mechanical.jpg": "/static/media/mechanical.a8b40969513f4238c517.jpg",
     "static/media/fullbloom.jpg": "/static/media/fullbloom.7317c7478ccac384c8b0.jpg",
@@ -9,14 +9,17 @@
     "static/media/fourseasons.jpg": "/static/media/fourseasons.9391800293a7ddb0e15a.jpg",
     "static/media/p21-name.jpg": "/static/media/p21-name.6b3b80778a064ebe607a.jpg",
     "static/media/p41.jpg": "/static/media/p41.4baf93145309b811dee9.jpg",
+    "static/media/aggression.jpg": "/static/media/aggression.5c5c7d858de52b818b39.jpg",
+    "static/media/finale.jpg": "/static/media/finale.e8a1bf2c2e70b1752bfc.jpg",
+    "static/media/gates.jpg": "/static/media/gates.8d364b0ec0c55627887a.jpg",
     "static/media/farewell.jpg": "/static/media/farewell.5ae48c0de317f278d492.jpg",
     "index.html": "/index.html",
     "main.778eeed7.css.map": "/static/css/main.778eeed7.css.map",
-    "main.1f4a202c.js.map": "/static/js/main.1f4a202c.js.map",
+    "main.fff9e055.js.map": "/static/js/main.fff9e055.js.map",
     "787.23917691.chunk.js.map": "/static/js/787.23917691.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778eeed7.css",
-    "static/js/main.1f4a202c.js"
+    "static/js/main.fff9e055.js"
   ]
 }
