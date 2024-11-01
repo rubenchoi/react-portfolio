@@ -94,13 +94,43 @@ const music = {
   heading: "Music",
   data: [
     {
+      title: 'Mechanical Finale',
+      logo: require('../assets/img/finale.jpg'),
+      description: 'Ruben Choi 2024 Digital Album',
+      urls: {
+        apple: 'https://music.apple.com/us/album/mechanical-finale-ep/1773550734',
+        spotify: 'https://open.spotify.com/album/5tBRpmUGmm42Rw6q8GlykG',
+        melon: 'https://www.melon.com/album/detail.htm?albumId=11614362'
+      }
+    },
+    {
+      title: 'Mechanical Aggression',
+      logo: require('../assets/img/aggression.jpg'),
+      description: 'Ruben Choi 2024 Digital Album',
+      urls: {
+        apple: 'https://music.apple.com/us/album/mechanical-aggression/1766034069',
+        spotify: 'https://open.spotify.com/album/3LkLK8WlRRsSIvIGPp0wy8',
+        melon: 'https://www.melon.com/album/detail.htm?albumId=11580981'
+      }
+    },
+    {
       title: 'Mechanical Twilight',
       logo: require('../assets/img/mechanical.jpg'),
       description: 'Ruben Choi 2024 Digital Album',
       urls: {
-        apple: 'https://vibe.naver.com/album/31909357',
+        apple: 'https://music.apple.com/us/album/mechanical-twilight/1756448143',
         spotify: 'https://open.spotify.com/album/7dySRH0ejyWABgoDmcnvrr',
         melon: 'https://www.melon.com/album/detail.htm?albumId=11533826'
+      }
+    },
+    {
+      title: 'The Gates of Hell',
+      logo: require('../assets/img/gates.jpg'),
+      description: 'Kokytus EP 2024',
+      urls: {
+        apple: 'https://music.apple.com/us/album/the-gates-of-hell-ep/1765282264',
+        spotify: 'https://open.spotify.com/album/1pKYRnTVF37AG3SWEkBlIq',
+        melon: 'https://www.melon.com/album/detail.htm?albumId=11576291'
       }
     },
     {
