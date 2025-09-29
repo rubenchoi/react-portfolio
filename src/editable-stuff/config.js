@@ -76,15 +76,11 @@ const about = {
   resume: "/resume.pdf",
 };
 
-// PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
+
 const repos = {
   show: false,
   heading: "Recent Projects",
-  gitHubUsername: "rubenchoi", //i.e."johnDoe12Gh"
+  gitHubUsername: "rubenchoi", 
   reposLength: 4,
   specificRepos: [],
 };
@@ -93,6 +89,16 @@ const music = {
   show: true,
   heading: "Music",
   data: [
+    {
+      title: 'Nostalgia',
+      logo: require('../assets/img/nostalgia.jpg'),
+      description: 'Ruben Choi 2025 Digital Album',
+      urls: {
+        apple: 'https://music.apple.com/us/album/%EC%98%A4%EB%9E%9C%EB%A7%8C%EC%97%90-single/1842021647',
+        spotify: 'https://open.spotify.com/album/4gDmDToBlQJZPKqyYPXKrl',
+        melon: 'https://www.melon.com/album/detail.htm?albumId=12138610'
+      }
+    },
     {
       title: 'Mechanical Finale',
       logo: require('../assets/img/finale.jpg'),
