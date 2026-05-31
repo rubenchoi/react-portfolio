@@ -1,3 +1,15 @@
+import p21Name from "./p21-name.jpg";
+import p41 from "./p41.jpg";
+import aggression from "../assets/img/aggression.jpg";
+import farewell from "../assets/img/farewell.jpg";
+import finale from "../assets/img/finale.jpg";
+import fourSeasons from "../assets/img/fourseasons.jpg";
+import fullBloom from "../assets/img/fullbloom.jpg";
+import gates from "../assets/img/gates.jpg";
+import inferno from "../assets/img/inferno.png";
+import mechanical from "../assets/img/mechanical.jpg";
+import nostalgia from "../assets/img/nostalgia.jpg";
+
 // Navigation Bar SECTION
 const navBar = {
   show: false,
@@ -9,7 +21,7 @@ const mainBody = {
   firstName: "Ruben",
   middleName: "",
   lastName: "Choi",
-  message: " There is a goal but no way; what we call the way is mere wavering. - Franz Kafka ",
+  message: "Robotics Engineer | Musician",
   icons: [
     {
       image: "fab fa-github",
@@ -40,10 +52,10 @@ const mainBody = {
       image: "fab fa-youtube",
       url: "https://www.youtube.com/flamencochoi/",
     },
-    {
-      image: "fab fa-ethereum",
-      url: "https://opensea.io/rubenchoi",
-    },
+    // {
+    //   image: "fab fa-ethereum",
+    //   url: "https://opensea.io/rubenchoi",
+    // },
     {
       image: "fab fa-soundcloud",
       url: "https://soundcloud.com/ruben-choi",
@@ -69,10 +81,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/p21-name.jpg"),
+  imageLink: p21Name,
   imageSize: 375,
   message:
-    "Musician & Technical Artist@Advanced Robotics Lab, LG Electronics",
+    "Robotics Engineer at LG Electronics (Advanced Robotics Lab) | Musician",
   resume: "/resume.pdf",
 };
 
@@ -91,7 +103,7 @@ const music = {
   data: [
     {
       title: 'Nostalgia',
-      logo: require('../assets/img/nostalgia.jpg'),
+      logo: nostalgia,
       description: 'Ruben Choi 2025 Digital Album',
       urls: {
         apple: 'https://music.apple.com/us/album/%EC%98%A4%EB%9E%9C%EB%A7%8C%EC%97%90-single/1842021647',
@@ -101,7 +113,7 @@ const music = {
     },
     {
       title: 'Mechanical Finale',
-      logo: require('../assets/img/finale.jpg'),
+      logo: finale,
       description: 'Ruben Choi 2024 Digital Album',
       urls: {
         apple: 'https://music.apple.com/us/album/mechanical-finale-ep/1773550734',
@@ -111,7 +123,7 @@ const music = {
     },
     {
       title: 'Mechanical Aggression',
-      logo: require('../assets/img/aggression.jpg'),
+      logo: aggression,
       description: 'Ruben Choi 2024 Digital Album',
       urls: {
         apple: 'https://music.apple.com/us/album/mechanical-aggression/1766034069',
@@ -121,7 +133,7 @@ const music = {
     },
     {
       title: 'Mechanical Twilight',
-      logo: require('../assets/img/mechanical.jpg'),
+      logo: mechanical,
       description: 'Ruben Choi 2024 Digital Album',
       urls: {
         apple: 'https://music.apple.com/us/album/mechanical-twilight/1756448143',
@@ -131,7 +143,7 @@ const music = {
     },
     {
       title: 'The Gates of Hell',
-      logo: require('../assets/img/gates.jpg'),
+      logo: gates,
       description: 'Kokytus EP 2024',
       urls: {
         apple: 'https://music.apple.com/us/album/the-gates-of-hell-ep/1765282264',
@@ -141,7 +153,7 @@ const music = {
     },
     {
       title: 'Four Seasons',
-      logo: require('../assets/img/fourseasons.jpg'),
+      logo: fourSeasons,
       description: 'Ruben Choi 2023 Digital Album',
       urls: {
         apple: 'https://music.apple.com/us/album/four-seasons/1713539006',
@@ -151,7 +163,7 @@ const music = {
     },
     {
       title: 'Full Bloom',
-      logo: require('../assets/img/fullbloom.jpg'),
+      logo: fullBloom,
       description: 'Ruben Choi 2023 Digital Album',
       urls: {
         apple: 'https://music.apple.com/us/album/full-bloom/1684698636',
@@ -161,7 +173,7 @@ const music = {
     },
     {
       title: 'Inferno - The Divine Comedy',
-      logo: require('../assets/img/inferno.png'),
+      logo: inferno,
       description: 'Kokytus EP 2021',
       urls: {
         apple: 'https://music.apple.com/us/album/inferno-the-divine-comedy-ep/1585627398',
@@ -171,7 +183,7 @@ const music = {
     },
     {
       title: 'Farewell',
-      logo: require('../assets/img/farewell.jpg'),
+      logo: farewell,
       description: 'Ruben Choi EP 2020',
       urls: {
         apple: 'https://music.apple.com/us/album/farewell-ep/1526794613',
@@ -190,12 +202,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     {
-      img: require("../editable-stuff/p41.jpg"),
+      img: p41,
       label: "First slide label",
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
     {
-      img: require("../editable-stuff/p41.jpg"),
+      img: p41,
       label: "Second slide label",
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
@@ -247,12 +259,12 @@ const experiences = {
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/farewell.jpg'),
+      companylogo: farewell,
       date: 'June 2018 – Present',
     },
     {
       role: 'Front-End Developer',
-      companylogo: require('../assets/img/farewell.jpg'),
+      companylogo: farewell,
       date: 'May 2017 – May 2018',
     },
   ]

@@ -8,9 +8,43 @@
     <a href="https://hashirshoaeb.github.io/home">hashirshoaeb.github.io/home</a>
     <br />
     <br />
-    <a href="https://hashirshoaeb.github.io">About Me</a>
+    <!-- <a href="https://hashirshoaeb.github.io">About Me</a> -->
   </p>
 </p>
+
+## Vite Build + GitHub Pages Deploy
+
+This portfolio now runs on React + Vite.
+
+```bash
+npm install
+npm run dev
+```
+
+Build output is generated to `dist` and deploy is wired to GitHub Pages through `gh-pages`:
+
+```bash
+npm run deploy
+```
+
+`predeploy` automatically runs `npm run build`, so one command builds and publishes.
+
+## GitHub Actions Auto Deploy
+
+This repository now includes GitHub Actions deployment at `.github/workflows/deploy-pages.yml`.
+
+- Trigger: push to `main` (also supports manual run via `workflow_dispatch`)
+- Build: `npm ci` -> `npm run build` (Vite)
+- Deploy target: GitHub Pages from `dist`
+- Base path: auto-detected in CI
+  - `<username>.github.io` repository -> `/`
+  - normal repository (example: `react-portfolio`) -> `/react-portfolio/`
+
+One-time setup in GitHub repository settings:
+
+1. Open `Settings` -> `Pages`.
+2. Set `Source` to `GitHub Actions`.
+3. Push to `main` and the site is deployed automatically.
 
 ![GitHub contributors](https://img.shields.io/github/contributors/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
@@ -25,16 +59,17 @@
 
 ## Table of Contents
 
-- [Technology Stack 🛠️](#technology-stack-)
+- [Vite Build + GitHub Pages Deploy](#vite-build--github-pages-deploy)
+- [Table of Contents](#table-of-contents)
+- [Technology Stack 🛠️](#technology-stack-️)
 - [Structure ⚓](#structure-)
 - [Sharing 💗](#sharing-)
 - [Prerequisites 🍪](#prerequisites-)
 - [Setup And Deployment 🔧](#setup-and-deployment-)
-- [Contributing 🙌](#contributing-)
-- [Issues](#issues)
-- [Upcoming Features / Improvements 🔗](#upcoming-features-/-improvements-)
 - [Showcase 🚀](#showcase-)
-- [Versão em Português :brazil:](#versao-em-portugues-)
+- [Versão em Português :brazil:](#versão-em-português-brazil)
+- [Notice:](#notice)
+- [Stargazers over time](#stargazers-over-time)
 
 ## Technology Stack 🛠️
 
